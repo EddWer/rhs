@@ -32,8 +32,10 @@ main {
 
 #logo {
     font-family: 'Rubik Scribble', system-ui;
-    position:relative;
-    font-size:xxx-large;
+    position:absolute;
+    top:0;
+    left:0;
+    font-size:5vw;
 
 }
 
@@ -43,4 +45,7 @@ main {
 
 .footer-icon {
     font-family: 'Bebas Neue', system-ui;
+    position:fixed;
+    right:0;
+    bottom:0;
 }
