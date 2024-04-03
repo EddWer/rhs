@@ -43,9 +43,19 @@ main {
     text-transform: uppercase;
 }
 
-.footer-icon {
+#footer-icon {
+    position:fixed;
+    right:15px;
+    bottom:20px;
+}
+
+#footer-icon-text {
     font-family: 'Bebas Neue', system-ui;
     position:fixed;
     right:0;
     bottom:0;
+}
+
+.footer-icon {
+    size:50vw;
 }
