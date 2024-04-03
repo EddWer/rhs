@@ -2,27 +2,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Scribble&display=swap');
 
 * {
-    padding:0;
-    margin:0;
-    box-sizing:border-box;
-
-}
-#logo {
-    font-family:'Rubik Scribble', system-ui;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 /* General styles */
 
 body {
-    background-color:rgb(200, 233, 238);
-    color:rgb(54, 49, 49);
-    min-height:100vh;
-    display:flex;
-    flex-direction:column;
-    font-family:'Montserrat', sans-serif;
+    background-color: rgb(200, 233, 238);
+    color: rgb(54, 49, 49);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
 }
 
 main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
+}
+
+#logo {
+    font-family: 'Rubik Scribble', system-ui;
+}
+
+.navigation {
+    text-transform: uppercase;
+}
+
+.header-image {
+    
 }
