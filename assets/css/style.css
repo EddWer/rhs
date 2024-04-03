@@ -1,5 +1,5 @@
 /* Google fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Scribble&display=swap');
 
 * {
     padding:0;
@@ -7,6 +7,10 @@
     box-sizing:border-box;
 
 }
+#logo {
+    font-family:'Rubik Scribble', system-ui;
+}
+
 /* General styles */
 
 body {
