@@ -4,9 +4,17 @@
     box-sizing:border-box;
 
 }
-
+/* General styles */
 
 body {
     background-color:rgb(200, 233, 238);
     color:rgb(54, 49, 49);
+    min-height:100vh;
+    display:flex;
+    flex-direction:column;
+}
+
+main {
+    /* Make main element take up any surplus space to push footer down */
+    flex: 1 0 auto;
 }
