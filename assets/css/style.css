@@ -1,5 +1,5 @@
 /* Google fonts import*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Scribble&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Rubik+Scribble&family=Bebas+Neue&display=swap');
 
 * {
     padding: 0;
@@ -31,6 +31,6 @@ main {
     text-transform: uppercase;
 }
 
-.header-image {
-    
+.footer-icon {
+    font-family:'Bebas Neue', system-ui;
 }
