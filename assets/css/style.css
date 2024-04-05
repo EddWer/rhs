@@ -64,6 +64,10 @@ main {
     font-weight:bold;
 }
 
+.active {
+    border-bottom:2px solid rgb(54, 49, 49);
+}
+
 #footer-icon {
     position: fixed;
     right: 15px;
