@@ -14,7 +14,10 @@ Bug #2: Issues with scaling the #logo and #hat IDs, causing them to be very larg
 
 ## Credits
 
-Image used for favicon: https://pixabay.com/vectors/soda-can-drink-beverage-food-tin-147152/
+Image used for favicon: https://pixabay.com/vectors/bowler-hat-vintage-retro-man-954627/
 
 Image used in header: https://www.brewingwithbriess.com/wp-content/uploads/2020/03/Seltzer_Header-Photo_Cleaned.jpg
 
+Hat in logo found here: https://icons8.com/icons/set/hat
+
+<b>No copyright fringement intended. This content is meant for educational purposes only.</b>
