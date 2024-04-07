@@ -40,7 +40,7 @@ main {
     max-width: 100%;
     height: 5vw;
     position: absolute;
-    top: 7.5vw;
+    top: 7.7vw;
     left: 0.5vw;
     transform: rotate(23deg);
 }
@@ -154,11 +154,11 @@ main {
     }
 
     #hat {
-    top: 16.5vw;
+    top: 17.8vw;
     }
 
     #logo {
-        top: 15vw;
+        top: 16vw;
         font-size: 5.5vw;
     }
 }
