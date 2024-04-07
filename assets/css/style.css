@@ -94,6 +94,9 @@ main {
 
 
 #socials {
+    position:fixed; 
+    bottom:0; 
+    width:100%;
     text-align: center;
     padding: 2px 0;
     display: flex;
