@@ -61,9 +61,9 @@ body {
 
 .reasons-background {
     background-color: rgb(244, 241, 241);
-    margin-top:-10px;
-    padding-top:1px;
-    margin-bottom:50px;
+    margin-top: -10px;
+    padding-top: 1px;
+    margin-bottom: 50px;
 }
 
 #reasons {
@@ -77,8 +77,8 @@ body {
     font-size: 280%;
 }
 
-#reasons1 > div,
-#reasons2 > div {
+#reasons1>div,
+#reasons2>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -128,12 +128,12 @@ body {
     bottom: 65px;
     z-index: 97;
     list-style-type: none;
-    text-align:center;
-    font-size:100%;
+    text-align: center;
+    font-size: 100%;
 }
 
 #footer-icon {
-    margin-bottom:-10px;
+    margin-bottom: -10px;
 }
 
 @media screen and (max-width:767px) {
@@ -191,7 +191,7 @@ body {
 }
 
 @media screen and (min-width: 768px) {
-    
+
 
     .navigation {
         background-color: white;
@@ -234,24 +234,25 @@ body {
     }
 
     #order {
-        font-size:200%;
-        right:20px;
+        font-size: 200%;
+        right: 20px;
     }
 
     #footer-icon {
-        width:50%;
-        margin-bottom:-20px;
+        width: 50%;
+        margin-bottom: -20px;
     }
 }
 
-@media screen and (min-width: 1200px) {    
+@media screen and (min-width: 1200px) {
+
     /* Reasons section */
     #special {
         display: flex;
         flex-direction: row;
     }
 
-    #special > div {
+    #special>div {
         flex: 1;
     }
 
@@ -263,66 +264,71 @@ body {
         order: 1;
     }
 
-    #reasons2 > div {
+    #reasons2>div {
         align-self: flex-start;
     }
 
-    #reasons1 > div {
+    #reasons1>div {
         align-self: flex-end;
     }
 
     .reasons-background {
-        height:680px;
+        height: 680px;
     }
 
     #reasons h2 {
-        margin-top:40px;
-        margin-bottom:80px;
-        font-size:350%;
+        margin-top: 40px;
+        margin-bottom: 80px;
+        font-size: 350%;
     }
 
     #special h3 {
-        font-size:200%;
+        font-size: 200%;
     }
 
     #special p {
-        font-size:120%;
+        font-size: 120%;
     }
 
     #socials {
-        padding-top:1%;
-        padding-bottom:1%;
+        padding-top: 1%;
+        padding-bottom: 1%;
 
+    }
+
+    #order {
+        margin-bottom: 40px;
     }
 }
 
 @media screen and (min-width: 2500px) {
     .reasons-background {
-        height:1200px;
+        height: 1200px;
     }
 
     #reasons h2 {
-        margin-top:50px;
-        margin-bottom:80px;
-        font-size:550%;
+        margin-top: 50px;
+        margin-bottom: 80px;
+        font-size: 550%;
     }
 
     #special h3 {
-        font-size:350%;
+        font-size: 350%;
     }
 
     #special p {
-        font-size:40px;
+        font-size: 40px;
     }
 
-    #reasons1 > div,
-#reasons2 > div {
-    line-height: 50px;
-    margin-bottom: 50px;
-}
-#circle-cover-bg {
-    max-width:600px;
-    max-height:600px;
-}
+    #reasons1>div,
+    #reasons2>div {
+        line-height: 50px;
+        margin-bottom: 50px;
+    }
+
+    #circle-cover-bg {
+        max-width: 600px;
+        max-height: 600px;
+    }
 
 }
