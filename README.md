@@ -20,4 +20,6 @@ Image used in header: https://www.brewingwithbriess.com/wp-content/uploads/2020/
 
 Hat in logo found here: https://icons8.com/icons/set/hat
 
+All social media links from: https://icons8.com/
+
 <b>No copyright fringement intended. This content is meant for educational purposes only.</b>
