@@ -59,7 +59,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.reasons-background {
+.content-background {
     background-color: rgb(244, 241, 241);
     margin-top: -10px;
     padding-top: 1px;
@@ -75,6 +75,25 @@ body {
     margin-bottom: 20px;
     text-align: center;
     font-size: 280%;
+}
+
+#about {
+    width: 100%;
+    margin: 20px auto;
+}
+
+#about h2 {
+    margin-bottom: 20px;
+    text-align:center;
+    font-size: 280%;
+}
+
+#about img {
+    max-width:97%;
+    display:block;
+    margin-left: auto;
+  margin-right: auto;
+    
 }
 
 #reasons1>div,
@@ -188,6 +207,11 @@ body {
         text-align: center;
         font-size: 200%;
     }
+
+    #about h2 {
+        margin-bottom: 20px;
+        font-size: 200%;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -272,7 +296,7 @@ body {
         align-self: flex-end;
     }
 
-    .reasons-background {
+    .content-background {
         height: 680px;
     }
 
@@ -299,10 +323,17 @@ body {
     #order {
         margin-bottom: 40px;
     }
+
+
+    #about h2 {
+        margin-top: 40px;
+        margin-bottom: 80px;
+        font-size: 350%;
+    }
 }
 
 @media screen and (min-width: 2500px) {
-    .reasons-background {
+    .content-background {
         height: 1200px;
     }
 
@@ -329,6 +360,12 @@ body {
     #circle-cover-bg {
         max-width: 600px;
         max-height: 600px;
+    }
+
+    #about h2 {
+        margin-top: 50px;
+        margin-bottom: 80px;
+        font-size: 550%;
     }
 
 }
