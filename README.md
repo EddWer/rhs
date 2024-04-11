@@ -11,6 +11,8 @@ Bug #1: IDs #footer-icon and #footer-icon-text were previously in the same class
 
 Bug #2: Issues with scaling the #logo and #hat IDs, causing them to be very large on mobile screens. Fixed by changing from % to vw.
 
+Bug #3: Hat icon and text in lower right of screen was not aligning correctly with eachother. Corrected this by making them list items instead.
+
 
 ## Credits
 

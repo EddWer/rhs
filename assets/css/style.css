@@ -121,19 +121,19 @@ body {
     background-color: white;
 }
 
-#footer-icon {
-    position: fixed;
-    right: 15px;
-    bottom: 85px;
-    z-index: 98;
-}
-
-#footer-icon-text {
+#order {
     font-family: 'Bebas Neue', system-ui;
     position: fixed;
-    right: 0;
+    right: 5px;
     bottom: 65px;
     z-index: 97;
+    list-style-type: none;
+    text-align:center;
+    font-size:100%;
+}
+
+#footer-icon {
+    margin-bottom:-10px;
 }
 
 @media screen and (max-width:767px) {
@@ -232,16 +232,15 @@ body {
     .navigation a:hover {
         border-bottom: 3px solid black;
     }
-    
-    #footer-icon {
-        width:6%;
-        height:6%;
-        bottom:100px;
-        right:28px;
-    }
-    
-    #footer-icon-text {
+
+    #order {
         font-size:200%;
+        right:20px;
+    }
+
+    #footer-icon {
+        width:50%;
+        margin-bottom:-20px;
     }
 }
 
@@ -290,7 +289,9 @@ body {
         font-size:120%;
     }
 
-    #footer-icon {
-        right:15px;
+    #socials {
+        padding-top:1%;
+        padding-bottom:1%;
+
     }
 }
