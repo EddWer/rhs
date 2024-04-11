@@ -295,3 +295,34 @@ body {
 
     }
 }
+
+@media screen and (min-width: 2500px) {
+    .reasons-background {
+        height:1200px;
+    }
+
+    #reasons h2 {
+        margin-top:50px;
+        margin-bottom:80px;
+        font-size:550%;
+    }
+
+    #special h3 {
+        font-size:350%;
+    }
+
+    #special p {
+        font-size:40px;
+    }
+
+    #reasons1 > div,
+#reasons2 > div {
+    line-height: 50px;
+    margin-bottom: 50px;
+}
+#circle-cover-bg {
+    max-width:600px;
+    max-height:600px;
+}
+
+}
