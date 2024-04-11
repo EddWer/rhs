@@ -10,7 +10,7 @@
 /* Header image styling to make it fit screens */
 
 #header-image {
-    
+
     max-width: 100%;
     height: auto;
 }
@@ -26,9 +26,37 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+#reasons {
+    width: 90%;
+    margin: 20px auto;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#reasons > div,
+#tasty > div,
+#affordable > div,
+#fun > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 a {
-    text-decoration:none;
-    color:inherit;
+    text-decoration: none;
+    color: inherit;
 }
 
 main {
@@ -55,32 +83,27 @@ main {
 
 }
 
-
-
-
-
 .active {
-    border-bottom:3px solid rgb(54, 49, 49);
+    border-bottom: 3px solid rgb(54, 49, 49);
 }
 
-
 #socials {
-    position:fixed; 
-    bottom:0; 
-    width:100%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     padding: 2px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    background-color:white;
+    background-color: white;
 }
 
 #footer-icon {
     position: fixed;
     right: 15px;
     bottom: 85px;
-    z-index:98;
+    z-index: 98;
 }
 
 #footer-icon-text {
@@ -88,7 +111,7 @@ main {
     position: fixed;
     right: 0;
     bottom: 65px;
-    z-index:97;
+    z-index: 97;
 }
 
 @media screen and (min-width: 768px) {
@@ -97,61 +120,61 @@ main {
     }
 
     .navigation {
-        background-color:white;
-        width:100%;
-        height:4.2vw;
-        position:fixed;
-        text-transform:uppercase;
-        font-size:3vw;
-        font-weight:bold;
-        display:flex;
-        justify-content:center;
-        gap:4vw;
-        z-index:99;
+        background-color: white;
+        width: 100%;
+        height: 4.2vw;
+        position: fixed;
+        text-transform: uppercase;
+        font-size: 3vw;
+        font-weight: bold;
+        display: flex;
+        justify-content: center;
+        gap: 4vw;
+        z-index: 99;
     }
-    
+
 }
 
 @media screen and (max-width:767px) {
 
     .navigation {
-        position:fixed;
-        display:flex;
-        width:100%;
-        padding-top:1vw;
-        padding-bottom:1vw;
-        justify-content:center;
+        position: fixed;
+        display: flex;
+        width: 100%;
+        padding-top: 1vw;
+        padding-bottom: 1vw;
+        justify-content: center;
         text-transform: uppercase;
-        gap:4vw;
-        font-size:4vw;
-        font-weight:bold;
-        background-color:white;
-        z-index:99;
+        gap: 4vw;
+        font-size: 4vw;
+        font-weight: bold;
+        background-color: white;
+        z-index: 99;
     }
 
     .active {
-        border-bottom:2px solid rgb(54, 49, 49);
+        border-bottom: 2px solid rgb(54, 49, 49);
     }
 
     #header-image {
-        padding-top:4vw;
+        padding-top: 4vw;
     }
 
     #logo {
-        padding-top:4vw;
+        padding-top: 4vw;
     }
 
     #hat {
-        top:11vw;
+        top: 11vw;
     }
-    
+
     #header-image {
-        height:40vw;
-        width:100%;
+        height: 40vw;
+        width: 100%;
     }
 
     #hat {
-    top: 17.8vw;
+        top: 17.8vw;
     }
 
     #logo {
