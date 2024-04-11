@@ -59,8 +59,8 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.white-background {
-    background-color: white;
+.reasons-background {
+    background-color: rgb(244, 241, 241);
     margin-top:-10px;
     padding-top:1px;
     margin-bottom:50px;
@@ -182,6 +182,12 @@ body {
         top: 16vw;
         font-size: 5.5vw;
     }
+
+    #reasons h2 {
+        margin-bottom: 20px;
+        text-align: center;
+        font-size: 200%;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -226,6 +232,17 @@ body {
     .navigation a:hover {
         border-bottom: 3px solid black;
     }
+    
+    #footer-icon {
+        width:6%;
+        height:6%;
+        bottom:100px;
+        right:28px;
+    }
+    
+    #footer-icon-text {
+        font-size:200%;
+    }
 }
 
 @media screen and (min-width: 1200px) {    
@@ -253,5 +270,27 @@ body {
 
     #reasons1 > div {
         align-self: flex-end;
+    }
+
+    .reasons-background {
+        height:680px;
+    }
+
+    #reasons h2 {
+        margin-top:40px;
+        margin-bottom:80px;
+        font-size:350%;
+    }
+
+    #special h3 {
+        font-size:200%;
+    }
+
+    #special p {
+        font-size:120%;
+    }
+
+    #footer-icon {
+        right:15px;
     }
 }
