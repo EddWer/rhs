@@ -52,7 +52,55 @@
 
     </header>
     <!-- Main content -->
-    <main>Main content</main>
+    <main>
+        <section class="content-background-poll">
+            <div id="poll">
+        <h2>What should our next flavour be? Cast your vote now!</h2>
+        <br>
+        <form method="post" target="_blank" action="https://formdump.codeinstitute.net/">
+            <div>
+                <fieldset id="fieldset">
+                    <div>
+                        <h6>Please fill in your details before submitting your vote</h6>
+        <label for="name">Name: </label>
+            <input type="text" id="name" name="full_name" placeholder="Your name" required> 
+            <div>
+            <label for="email">Email: </label>       
+            <input type="text" id="email" name="email_adress" placeholder="Your email" required>  
+       <div>
+        <br>
+        <h6>Which flavour should we release next?</h6>
+        <label for="flavour1">Strawberry/Lime</label>
+        <input type="radio" id="flavour1" name="poll" required>
+    <div>
+        <label for="flavour2">Peach</label>
+            <input type="radio" id="flavour2" name="poll">
+        <div>
+            <label for="flavour3">Watermelon</label>
+            <input type="radio" id="flavour3" name="poll">
+        <div>
+            <label for="flavour4">Pineapple Mojito</label>
+            <input type="radio" id="flavour4" name="poll">
+        </div>
+    </div>
+</div>
+</div>
+</div>
+</div>
+    </fieldset>
+        <div>
+            <label id="updates-text" for="updates">Sign up for our email updates to stay up-to-date with everything Rulla Hatt</label>
+            <input type="checkbox" id="updates" name="news" checked>
+        </div>
+        <div>
+            <input type="submit" value="Cast your vote!">
+        </div>
+        </form>
+    </div>
+    <img id="poll-image" src="assets/images/drinks.jpg">
+    </section>
+    
+    </main>
     <!-- Footer -->
     <footer>
         <ul id="socials">
@@ -71,13 +119,13 @@
         </ul>
         <span>
             <ul id="order">
-            <li><a href="https://www.systembolaget.se/" rel="noopener" target="_blank"
-            aria-label="Order our seltzers"></li>
+                <li><a href="https://www.systembolaget.se/" rel="noopener" target="_blank"
+                        aria-label="Order our seltzers"></li>
                 <li><img id="footer-icon" src="assets/favicon/favicon-32x32.png">
-                <p id="footer-icon-text">Order here!</p>
-            </a>
-        </li>
-    </ul>
+                    <p id="footer-icon-text">Order here!</p>
+                    </a>
+                </li>
+            </ul>
         </span>
 
     </footer>

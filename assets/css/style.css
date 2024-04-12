@@ -73,6 +73,13 @@ body {
     margin-bottom: 50px;
 }
 
+.content-background-poll {
+    background-color: rgb(244, 241, 241);
+    margin-top: -10px;
+    padding-top: 1px;
+    margin-bottom: 50px;
+}
+
 #reasons {
     width: 90%;
     margin: 20px auto;
@@ -128,6 +135,35 @@ body {
     margin-left:30px;
     margin-right:30px;
     margin-bottom:30px;
+}
+
+#poll {
+    text-align:center;
+    margin-top:10px;
+}
+
+input {
+    margin: 7px auto;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: rgb(241, 130, 185);
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+#updates-text {
+    font-size: 70%;
+}
+
+#poll-image {
+    max-width:100%;
+    margin-bottom:20px;
 }
 
 #reasons1>div,
@@ -366,6 +402,10 @@ body {
         height: 700px;
     }
 
+    .content-background-poll {
+        height: 700px;
+    }
+
     #reasons h2 {
         margin-top: 40px;
         margin-bottom: 80px;
@@ -424,6 +464,11 @@ body {
     .content-background-about {
         height: 1200px;
     }
+
+    .content-background-poll {
+        height: 1200px;
+    }
+
 
     #reasons h2 {
         margin-top: 50px;
