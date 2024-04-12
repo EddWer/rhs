@@ -4,6 +4,8 @@ This website is dedicated to the new alcoholic beverage company specializing in 
 
 The purpose of this website is to give some insight into the company itself, as well as to entice future customers to purchase our seltzers.
 
+<img src="assets/images/screen-sizes.png">
+
 
 ## Bugs
 
@@ -23,5 +25,7 @@ Image used in header: https://www.brewingwithbriess.com/wp-content/uploads/2020/
 Hat in logo found here: https://icons8.com/icons/set/hat
 
 All social media links from: https://icons8.com/
+
+Submit button styling partially copied from: https://www.w3schools.com/howto/howto_css_stacked_form.asp
 
 <b>No copyright fringement intended. This content is meant for educational purposes only.</b>
