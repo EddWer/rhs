@@ -111,6 +111,7 @@ body {
 #about-header {
     margin-bottom: 20px;
     font-size: 280%;
+    text-align:center;
 }
 
 #about-image {
@@ -293,7 +294,6 @@ input[type=submit] {
         margin-bottom: 20px;
         margin-top:10px;
         font-size: 200%;
-        text-align:center;
     }
 
     #about {
@@ -358,7 +358,7 @@ input[type=submit] {
     }
 
     #about-header {
-        margin-left:2.3em;
+        margin-top:10px;
     }
 
     #about-text {
@@ -397,7 +397,6 @@ input[type=submit] {
     }
 
     #about-header {
-        margin-left:3.7em;
         margin-top:10px;
     }
 
@@ -440,11 +439,11 @@ input[type=submit] {
     }
 
     .content-background {
-        height: 700px;
+        height: 620px;
     }
 
     .content-background-about {
-        height: 700px;
+        height: 1000px;
     }
 
     .content-background-poll {
@@ -480,7 +479,6 @@ input[type=submit] {
         margin-top: 40px;
         margin-bottom: 40px;
         font-size: 450%;
-        margin-left:3.2em;
     }
 
     #about-text,
@@ -497,7 +495,7 @@ input[type=submit] {
         width:100%;
         height:auto;
         padding-top:10px;
-        padding-bottom:100px;
+        padding-bottom:10px;
     }
 
     #poll {
@@ -519,13 +517,21 @@ input[type=submit] {
     }
 }
 
+@media screen and (min-width: 1500px) {
+    .content-background-about {
+        height: 1000px;
+    }
+}
+
+
+
 @media screen and (min-width: 2500px) {
     .content-background {
         height: 1200px;
     }
 
     .content-background-about {
-        height: 1200px;
+        height: 1550px;
     }
 
     .content-background-poll {
@@ -562,7 +568,6 @@ input[type=submit] {
         margin-top: 50px;
         margin-bottom: 80px;
         font-size: 650%;
-        margin-left:4.3em;
     }
 
     #about-text,
