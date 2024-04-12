@@ -78,9 +78,10 @@ body {
 }
 
 #about {
-    width: 100%;
+    width: 90%;
     margin: 20px auto;
     display:flex;
+    gap:1%;
 }
 
 #about-text,
@@ -102,8 +103,14 @@ body {
     
 }
 
+#know {
+    width:90%;
+    margin:20px auto;
+}
+
 #know h2 {
     margin-bottom: 20px;
+    margin-top:10px;
     text-align: center;
     font-size: 280%;
 }
@@ -271,7 +278,7 @@ body {
     }
 
     #about-header {
-        margin-left:2em;
+        margin-left:2.3em;
     }
 
 }
@@ -293,7 +300,8 @@ body {
     }
 
     #about-header {
-        margin-left:3em;
+        margin-left:3.7em;
+        margin-top:10px;
     }
 }
 
@@ -356,9 +364,9 @@ body {
 
     #about-header {
         margin-top: 40px;
-        margin-bottom: 80px;
-        font-size: 350%;
-        margin-left:4em;
+        margin-bottom: 40px;
+        font-size: 450%;
+        margin-left:3.2em;
     }
 }
 
@@ -395,8 +403,8 @@ body {
     #about-header {
         margin-top: 50px;
         margin-bottom: 80px;
-        font-size: 550%;
-        margin-left:5em;
+        font-size: 650%;
+        margin-left:4.3em;
     }
 
 }
