@@ -142,19 +142,29 @@ body {
     margin-top:10px;
 }
 
+#poll-header {
+    margin-bottom: 10px;
+    font-size: 280%;
+}
+
 input {
     margin: 7px auto;
 }
 
 input[type=submit] {
-    width: 100%;
+    width: 99%;
     background-color: rgb(241, 130, 185);
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
     border: none;
-    border-radius: 4px;
+    border-radius: 20px;
     cursor: pointer;
+  }
+
+  #fieldset {
+    width: 95%;
+    margin-left:2.5%;
   }
 
 #updates-text {
@@ -305,6 +315,12 @@ input[type=submit] {
         margin-top:5%;
         border-radius:20px;
     }
+
+    #poll-header {
+        margin-top:10px;
+        font-size: 200%;
+        text-align:center;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -355,6 +371,11 @@ input[type=submit] {
 
     #poll-image {
         border-radius:80px;
+    }
+
+    #fieldset {
+        width:70%;
+        margin-left:15%;
     }
 
 }
@@ -427,7 +448,7 @@ input[type=submit] {
     }
 
     .content-background-poll {
-        height: 1300px;
+        height: 1600px;
     }
 
     #reasons h2 {
@@ -479,8 +500,22 @@ input[type=submit] {
         padding-bottom:100px;
     }
 
+    #poll {
+        font-size:150%;
+    }
+
     #poll-image {
         border-radius:230px;
+    }
+
+    #poll-header {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 350%;
+    }
+    #fieldset {
+        width:50%;
+        margin-left:25%;
     }
 }
 
@@ -494,7 +529,7 @@ input[type=submit] {
     }
 
     .content-background-poll {
-        height: 2100px;
+        height: 2800px;
     }
 
 
@@ -539,8 +574,36 @@ input[type=submit] {
         font-size:650%;   
     }
 
+    #poll {
+        font-size:280%;
+    }
+
     #poll-image {
         border-radius:330px;
+    }
+
+    #poll-header {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 350%;
+    }
+
+    input[type=radio] {
+        border: 0px;
+        width: 3%;
+        height: 2em;
+    }
+
+    input[type=text] {
+        border: 2px solid grey;
+        width: 30%;
+        height: 2em;
+    }
+
+    input[type=checkbox] {
+        border: 0px;
+        width: 3%;
+        height: 2em;
     }
 
 }
