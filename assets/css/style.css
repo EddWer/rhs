@@ -295,9 +295,14 @@ input[type=submit] {
         width:90%;
     }
 
+    #hr1 {
+        display:none;
+    }
+
     #about-image {
         width:95%;
         margin-left:2.5%;
+        margin-top:5%;
         border-radius:20px;
     }
 }
@@ -340,6 +345,10 @@ input[type=submit] {
         margin-left:2.3em;
     }
 
+    #about-text {
+        font-size:85%;
+    }
+
     #about img {
         height:35vw;
     }
@@ -373,7 +382,7 @@ input[type=submit] {
 
     #about-text,
     #know p {
-        font-size:128%;
+        font-size:113%;
     }
 
     #poll-image {
@@ -455,7 +464,7 @@ input[type=submit] {
 
     #about-text,
     #know p {
-        font-size:180%;
+        font-size:158%;
     }
 
     #know h2 {
@@ -523,7 +532,7 @@ input[type=submit] {
 
     #about-text,
     #know p {
-        font-size:320%;
+        font-size:280%;
     }
 
     #know-header {
