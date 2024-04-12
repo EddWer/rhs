@@ -80,20 +80,32 @@ body {
 #about {
     width: 100%;
     margin: 20px auto;
+    display:flex;
 }
 
-#about h2 {
+#about-text,
+#about-image {
+    flex: 1;
+}
+
+#about-text {
+    border-right: 1px solid #3a3a3a;
+}
+
+#about-header {
     margin-bottom: 20px;
-    text-align:center;
     font-size: 280%;
 }
 
 #about img {
-    max-width:97%;
-    display:block;
-    margin-left: auto;
-  margin-right: auto;
+    max-width:100%;
     
+}
+
+#know h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
 }
 
 #reasons1>div,
@@ -208,9 +220,19 @@ body {
         font-size: 200%;
     }
 
-    #about h2 {
+    #about-header {
         margin-bottom: 20px;
         font-size: 200%;
+        text-align:center;
+    }
+
+    #about {
+        display:inline;
+    }
+
+    #about hr {
+        margin-top:10px;
+        margin-bottom:10px;
     }
 }
 
@@ -248,6 +270,10 @@ body {
         align-self: flex-end;
     }
 
+    #about-header {
+        margin-left:2em;
+    }
+
 
 }
 
@@ -265,6 +291,10 @@ body {
     #footer-icon {
         width: 50%;
         margin-bottom: -20px;
+    }
+
+    #about-header {
+        margin-left:3em;
     }
 }
 
@@ -325,10 +355,11 @@ body {
     }
 
 
-    #about h2 {
+    #about-header {
         margin-top: 40px;
         margin-bottom: 80px;
         font-size: 350%;
+        margin-left:4em;
     }
 }
 
@@ -362,10 +393,11 @@ body {
         max-height: 600px;
     }
 
-    #about h2 {
+    #about-header {
         margin-top: 50px;
         margin-bottom: 80px;
         font-size: 550%;
+        margin-left:5em;
     }
 
 }
