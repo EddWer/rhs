@@ -113,7 +113,7 @@ body {
     font-size: 280%;
 }
 
-#about img {
+#about-image {
     max-width:100%;
     
 }
@@ -164,6 +164,7 @@ input[type=submit] {
 #poll-image {
     max-width:100%;
     margin-bottom:20px;
+    border-radius:50px;
 }
 
 #reasons1>div,
@@ -293,6 +294,12 @@ input[type=submit] {
         margin:10px auto;
         width:90%;
     }
+
+    #about-image {
+        width:95%;
+        margin-left:2.5%;
+        border-radius:20px;
+    }
 }
 
 @media screen and (min-width: 768px) {
@@ -337,6 +344,10 @@ input[type=submit] {
         height:35vw;
     }
 
+    #poll-image {
+        border-radius:80px;
+    }
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -363,6 +374,10 @@ input[type=submit] {
     #about-text,
     #know p {
         font-size:128%;
+    }
+
+    #poll-image {
+        border-radius:120px;
     }
 }
 
@@ -403,7 +418,7 @@ input[type=submit] {
     }
 
     .content-background-poll {
-        height: 700px;
+        height: 1300px;
     }
 
     #reasons h2 {
@@ -454,6 +469,10 @@ input[type=submit] {
         padding-top:10px;
         padding-bottom:100px;
     }
+
+    #poll-image {
+        border-radius:230px;
+    }
 }
 
 @media screen and (min-width: 2500px) {
@@ -466,7 +485,7 @@ input[type=submit] {
     }
 
     .content-background-poll {
-        height: 1200px;
+        height: 2100px;
     }
 
 
@@ -509,6 +528,10 @@ input[type=submit] {
 
     #know-header {
         font-size:650%;   
+    }
+
+    #poll-image {
+        border-radius:330px;
     }
 
 }
