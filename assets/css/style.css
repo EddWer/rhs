@@ -89,7 +89,7 @@ body {
 }
 
 #about-text {
-    border-right: 1px solid #3a3a3a;
+    border: 1px solid #3a3a3a;
 }
 
 #about-header {
@@ -273,7 +273,6 @@ body {
     #about-header {
         margin-left:2em;
     }
-
 
 }
 
