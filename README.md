@@ -8,6 +8,60 @@ Link to live site here: <a href="https://eddwer.github.io/rhs/">Rulla Hatt Seltz
 
 <img src="assets/images/screen-sizes.png">
 
+## Target Audience
+
+The target audience for this website is potential customers of Rulla Hatt, as well as current customers looking to experience even more of the company.
+
+## Features
+
+#### Navbar
+The navbar is featured on all 3 pages to make the user be able to seamlessly switch between them. Header image is present on all 3 as well with a clickable logo which takes the user to the main page.
+
+<img src="assets/images/navbar.png">
+
+### Links to social media pages
+
+Since Rulla Hatt has a large social media presence, we find it's important to have these links always present on the page, hence we made the footer sticky on all pages.
+
+<img src="assets/images/footer.png">
+
+### Link to order from Systembolaget
+
+To make it easier for customers to find our seltzers and order them, we made a link with our logo which we keep to the bottom-right of the screen, just above the footer. We also made this sticky and put it on all 3 pages.
+
+<img src="assets/images/order.png">
+
+### Poll
+
+To create some user interaction and as a way for our customers to feel they can have an impact, we created a poll where the users can vote for what flavour we should release next.
+
+<img src="assets/images/poll.png">
+
+## Future features
+
+1. Links to different app stores where users can download our apps
+2. Create a webshop where users can purchase merch.
+3. Create a "Gallery" section where we can upload user photos.
+
+## Manual Testing
+
+<strong>Features Testing</strong>
+
+| Feature | Action | Effect |
+| ------------- | ------------- | ------------ |
+| Logo | Click | Opens Home page |
+| Navbar Links | Click on Home | Opens Home page |
+|  | Click on About Us | Opens About Us page |
+|  | Click on Take Our Poll | Opens Take Our Poll page |
+| Social Media Links | Click on X icon | Opens X homepage in new tab |
+|  | Click on TikTok icon | Opens TikTok homepage in new tab |
+|  | Click on Instagram icon | Opens Instagram homepage in new tab |
+|  | Click on Youtube icon | Opens Youtube homepage in new tab |
+| Systembolaget Link | Click on Order Here/Hat icon | Opens Systembolaget homepage in new tab |
+| Submit Poll | Fill information and click on Submit | Opens Code Institute Formdump page in new tab |
+
+
+
 
 ## Bugs
 
