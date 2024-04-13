@@ -60,6 +60,45 @@ To create some user interaction and as a way for our customers to feel they can 
 | Systembolaget Link | Click on Order Here/Hat icon | Opens Systembolaget homepage in new tab |
 | Submit Poll | Fill information and click on Submit | Opens Code Institute Formdump page in new tab |
 
+<strong>Lighthouse</strong>
+
+<b>Test Scores:</b>
+
+* Performance: 70
+* Accessibility: 84
+* Best Practices: 83
+* SEO: 92
+
+Results: Overall the scores are pretty good. SEO at 92 is great. The rest of the points, especially performance, has some room for improvement in the future.
+
+<img src="assets/images/scores.png">
+
+<strong>Browsers</strong>
+
+<b>Supported Browsers and Devices</b>
+
+* Google Chrome
+* Mozilla Firefox
+* Microsoft Edge
+* Safari (Iphone)
+
+<b>Responsiveness testing</b> Manual testing has been conducted on all the above browsers.
+
+<b>Screen Sizes testing</b>
+
+| Device/Screen Size  | Performance |
+| ------------- | ------------- |
+| Desktop (1920x1080) | No issues |
+| Laptop (1366x768) | No issues |
+| Tablet (iPad) | No issues |
+| Mobile (iPhone X) | No issues |
+
+<strong>Known Issues</strong>
+
+* None!
+
+
+
 
 
 
