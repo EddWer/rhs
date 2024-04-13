@@ -97,11 +97,6 @@ Results: Overall the scores are pretty good. SEO at 92 is great. The rest of the
 
 * None!
 
-
-
-
-
-
 ## Bugs
 
 Bug #1: IDs #footer-icon and #footer-icon-text were previously in the same class named .footer-icon, which made me unable to properly align them to eachother in the bottom right corner of the screen. I fixed this by giving them separate IDs instead!
@@ -110,12 +105,34 @@ Bug #2: Issues with scaling the #logo and #hat IDs, causing them to be very larg
 
 Bug #3: Hat icon and text in lower right of screen was not aligning correctly with eachother. Corrected this by making them list items instead.
 
+<strong>Validator Testing</strong>
+
+* HTML - 5 errors found, all relating to the footer icon and order text. Correcting these errors makes the code not work as intended, hence why these errors are still present. Validated via: https://validator.w3.org/nu/
+
+* CSS - No errors found when validating via: https://jigsaw.w3.org/css-validator/validator
+
+
+## Deployment
+
+Project was deployed to GitHub pages. The steps to deploy are as follows:
+* In the GitHub repository, navigate to the Settings tab
+* From the source section drop-down menu, select the Main Branch
+* Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+After site was deployed, it was changed a total of 10 times, with this entry being the 11th. Project is now complete.
+
 
 ## Credits
 
 Image used for favicon: https://pixabay.com/vectors/bowler-hat-vintage-retro-man-954627/
 
 Image used in header: https://www.brewingwithbriess.com/wp-content/uploads/2020/03/Seltzer_Header-Photo_Cleaned.jpg
+
+Image used on Home page: https://www.rawpixel.com/create/design/01HV3K9J2R58Q4921ZWWSBQYDE?path=topic-8299
+
+Image used on About Us page: https://unsplash.com/photos/people-holding-clear-drinking-glasses-0_ANUVluyss
+
+Image used on Take Our Poll page: https://unsplash.com/photos/six-clear-glass-mason-jars-filled-with-juice-on-black-table-jcLcWL8D7AQ
 
 Hat in logo found here: https://icons8.com/icons/set/hat
 
