@@ -1,4 +1,4 @@
-# Rulla Hatt Seltzer
+# Rulla Hatt Seltzer - Project Portfolio 1 - HTML & CSS
 
 This website is dedicated to the new alcoholic beverage company specializing in low-calorie refreshing seltzers: Rulla Hatt!
 
