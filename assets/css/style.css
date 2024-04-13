@@ -94,8 +94,8 @@ body {
 #about {
     width: 90%;
     margin: 20px auto;
-    display:flex;
-    gap:1%;
+    display: flex;
+    gap: 1%;
 }
 
 #about-text,
@@ -105,42 +105,42 @@ body {
 
 #about-text {
     border: 1px solid #3a3a3a;
-    text-align:center;
+    text-align: center;
 }
 
 #about-header {
     margin-bottom: 20px;
     font-size: 280%;
-    text-align:center;
+    text-align: center;
 }
 
 #about-image {
-    max-width:100%;
-    
+    max-width: 100%;
+
 }
 
 #know {
-    width:90%;
-    margin:20px auto;
+    width: 90%;
+    margin: 20px auto;
 }
 
 #know h2 {
     margin-bottom: 20px;
-    margin-top:10px;
+    margin-top: 10px;
     text-align: center;
     font-size: 280%;
 }
 
 #know p {
-    text-align:center;
-    margin-left:30px;
-    margin-right:30px;
-    margin-bottom:30px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 30px;
 }
 
 #poll {
-    text-align:center;
-    margin-top:10px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 #poll-header {
@@ -152,6 +152,7 @@ input {
     margin: 7px auto;
 }
 
+/* This styling partially copied from W3Schools */
 input[type=submit] {
     width: 99%;
     background-color: rgb(241, 130, 185);
@@ -161,21 +162,21 @@ input[type=submit] {
     border: none;
     border-radius: 20px;
     cursor: pointer;
-  }
+}
 
-  #fieldset {
+#fieldset {
     width: 95%;
-    margin-left:2.5%;
-  }
+    margin-left: 2.5%;
+}
 
 #updates-text {
     font-size: 70%;
 }
 
 #poll-image {
-    max-width:100%;
-    margin-bottom:20px;
-    border-radius:50px;
+    max-width: 100%;
+    margin-bottom: 20px;
+    border-radius: 50px;
 }
 
 #reasons1>div,
@@ -292,34 +293,34 @@ input[type=submit] {
 
     #about-header {
         margin-bottom: 20px;
-        margin-top:10px;
+        margin-top: 10px;
         font-size: 200%;
     }
 
     #about {
-        display:inline;
+        display: inline;
     }
 
     #about hr {
-        margin:10px auto;
-        width:90%;
+        margin: 10px auto;
+        width: 90%;
     }
 
     #hr1 {
-        display:none;
+        display: none;
     }
 
     #about-image {
-        width:95%;
-        margin-left:2.5%;
-        margin-top:5%;
-        border-radius:20px;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-top: 5%;
+        border-radius: 20px;
     }
 
     #poll-header {
-        margin-top:10px;
+        margin-top: 10px;
         font-size: 200%;
-        text-align:center;
+        text-align: center;
     }
 }
 
@@ -358,24 +359,24 @@ input[type=submit] {
     }
 
     #about-header {
-        margin-top:10px;
+        margin-top: 10px;
     }
 
     #about-text {
-        font-size:85%;
+        font-size: 85%;
     }
 
     #about img {
-        height:35vw;
+        height: 35vw;
     }
 
     #poll-image {
-        border-radius:80px;
+        border-radius: 80px;
     }
 
     #fieldset {
-        width:70%;
-        margin-left:15%;
+        width: 70%;
+        margin-left: 15%;
     }
 
 }
@@ -397,16 +398,16 @@ input[type=submit] {
     }
 
     #about-header {
-        margin-top:10px;
+        margin-top: 10px;
     }
 
     #about-text,
     #know p {
-        font-size:113%;
+        font-size: 113%;
     }
 
     #poll-image {
-        border-radius:120px;
+        border-radius: 120px;
     }
 }
 
@@ -483,27 +484,27 @@ input[type=submit] {
 
     #about-text,
     #know p {
-        font-size:158%;
+        font-size: 158%;
     }
 
     #know h2 {
-        font-size:450%;   
+        font-size: 450%;
     }
 
     #know {
-        background-color:rgb(244, 241, 241);
-        width:100%;
-        height:auto;
-        padding-top:10px;
-        padding-bottom:10px;
+        background-color: rgb(244, 241, 241);
+        width: 100%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     #poll {
-        font-size:150%;
+        font-size: 150%;
     }
 
     #poll-image {
-        border-radius:230px;
+        border-radius: 230px;
     }
 
     #poll-header {
@@ -511,9 +512,10 @@ input[type=submit] {
         margin-bottom: 20px;
         font-size: 350%;
     }
+
     #fieldset {
-        width:50%;
-        margin-left:25%;
+        width: 50%;
+        margin-left: 25%;
     }
 }
 
@@ -572,19 +574,19 @@ input[type=submit] {
 
     #about-text,
     #know p {
-        font-size:280%;
+        font-size: 280%;
     }
 
     #know-header {
-        font-size:650%;   
+        font-size: 650%;
     }
 
     #poll {
-        font-size:280%;
+        font-size: 280%;
     }
 
     #poll-image {
-        border-radius:330px;
+        border-radius: 330px;
     }
 
     #poll-header {
